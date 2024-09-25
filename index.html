@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPG to PNG</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <h1>JPG <span style="color: black;">to</span> PNG</h1>
+    <p>Effortlessly convert your JPG images to PNG in seconds...</p>
+    <button class="uploadBtn" id="fileInputButton" style="margin-top: 3rem;">Select JPG images</button>
+    <input type="file" id="fileInput" accept="image/jpeg" multiple style="display: none;" />
+    <p id="oR">or</p>
+    <div class="dragFiles" id="dragArea">
+        <p>Drop your images here</p>
+    </div>
+    <div id="fileList"></div>
+
+    <div id="uploadedFilesContainer"></div>
+    <button class="convertBtn" style="display: none; margin-top: 2rem;">Convert to PNG</button>
+
+    <script src="index.js"></script>
+
+</body>
